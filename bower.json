@@ -1,0 +1,23 @@
+{
+  "name": "pppyo",
+  "version": "0.0.0",
+  "keywords": [
+    "pppyo",
+    "web-components"
+  ],
+  "authors": [
+    "Peter Chen"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/peterchen16/pppyo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-strap": "~2.1.0"
+  }
+}
