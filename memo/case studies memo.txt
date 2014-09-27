@@ -1,0 +1,3 @@
+sales database connecting with angular
+
+
