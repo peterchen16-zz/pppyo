@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PPPYO Inc. - Data & App for the 21st Century</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="/css/bootstrapValidator.css" rel="stylesheet">
+    <link href="/css/full-slider.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top">PPPYO</a>
+            </li>
+            <li>
+                <a href="#top">HOME</a>
+            </li>
+            <li>
+                <a href="#about">ABOUT US</a>
+            </li>
+            <li>
+                <a href="#services">SERVICES & RESEARCH</a>
+            </li>
+            <li>
+                <a href="#portfolio">OUR TEAM</a>
+            </li>
+            <li>
+                <a href="#contact">CONTACT US</a>
+            </li>
+            <li>
+                <a data-toggle="modal" data-target="#myModal">START A PROJECT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1><img id="logo_img" src="/img/pppyo.png" alt="logo" height="150" width="400"></h1>
+            <h2>DATA MANAGEMENT & APP DEVELOPMENT</h2>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More NOW</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>GREAT <br> DATA MANAGEMENT + APP DEVELOPMENT <br> = SUCCESS IN THE 21st CENTURY.</h1>
+                    <p class="lead"></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div id="myCarousel" class="carousel slide">
+                      <!-- Carousel items -->
+                      <div class="carousel-inner">
+                        <div class="active item">{% include "services.html" %}</div>
+                        <div class="item">{% include "cloud.html" %}</div>
+                        <div class="item">{% include "data.html" %}</div>
+                        <div class="item">{% include "app.html" %}</div>
+                        <div class="item">{% include "analysis.html" %}</div>
+                      </div>
+                      <div>
+                          <ol class="carousel-indicators" style="position: relative; bottom: -10px;">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                          </ol>
+                      </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>OUR MOTTO: <br>KEEP IT SIMPLE & MAKE IT GRANDE</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>OUR TEAM</h2>
+                    <hr class="small">
+                    <div class="row">
+                    <div class="col-md-3">
+                    <i class="fa fa-paper-plane fa-5x"></i>
+                    <p><b>Peter</b> - Developer</p>
+                    <p>With over 5 years of experience in web and app design, Peter knows the in and out of web/app/database/cloud design and development.</p>
+                    </div>
+                    <div class="col-md-3">
+                    <i class="fa fa-paper-plane fa-5x"></i>
+                    <p><b>Carlos</b> - Analyst</p>
+                    <p>With over 9 years of experience in web design and analysis, Carlos knows the statistics of your data and the best way to optimize it.</p>
+                    </div>
+                    <div class="col-md-3">
+                    <i class="fa fa-paper-plane fa-5x"></i>
+                    <p><b>Wes</b> - Market Coordinator</p>
+                    <p>With over 5 years of experience in business marketing, Wes is the best guy to go for business advice.</p>
+                    </div>
+                    <div class="col-md-3">
+                    <i class="fa fa-paper-plane fa-5x"></i>
+                    <p><b>Miko</b> - UI/UX Designer</p>
+                    <p>With over 5 years of experience in graphic/UX design, Miko knows how to make your web app beautiful while maintain its ease of use.</p>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>TO START A PROJECT WITH US, CLICK THE BUTTON BELOW.</h3>
+                    <button data-toggle="modal" data-target="#myModal" class="btn btn-lg btn-light">START A PROJECT NOW!</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">START A PROJECT</h4>
+          </div>
+          <div class="modal-body" id='start_project_div'>
+            {% include "start_project_form.html" %}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="start_project()" id="start_button">START</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+<!--         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe> -->
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11545.11719328514!2d-79.410828!3d43.6631608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34930f7bcfe3%3A0x2a68be31aff6aef3!2s720+Bathurst+St%2C+Toronto%2C+ON+M5S+2R4!5e0!3m2!1sen!2sca!4v1413667197629"></iframe>
+        <br />
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>PPPYO Inc.</strong></h4>
+                    <p> 720 Bathurst St Toronto, ON M5S 2R4</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (647) 886-9361</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:pppyo@the-pppyo.com">pppyo@the-pppyo.com</a>
+                        </li>
+                    </ul>
+                    <br>
+<!--                     <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul> -->
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; THE-PPPYO.COM 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/bootstrapValidator.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+
+    // $(document).ready(function() {
+    //     $('#attributeForm').bootstrapValidator();
+    // });
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+        $("#menu-toggle").css( "opacity", "1" );
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+        $( this ).css( "opacity", "0" );
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>

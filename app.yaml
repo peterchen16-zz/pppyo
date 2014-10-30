@@ -9,6 +9,10 @@ handlers:
 # - url: /font-awesome-4.1./css
 #   static_dir: /font-awesome-4.1./css
 
+- url: /favicon\.ico
+  static_files: onepage/favicon.ico
+  upload: onepage/favicon\.ico
+
 - url: /fonts
   static_dir: onepage/fonts
 

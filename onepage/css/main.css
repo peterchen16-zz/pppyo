@@ -1,0 +1,45 @@
+@media screen{
+	.sub-div {
+		height: 350px;
+	}
+	.learn_more_text {
+		font-size: 140%;
+	}
+	.center-element {
+		margin: auto;
+	  	position: absolute;
+	  	top: 0; left: 0; bottom: 0; right: 0;
+	}
+	.analysis_graphic {
+		right: 20px;
+	}
+}
+
+@media (max-width : 1200px){
+	.sub-div {
+		height: auto;
+	}
+	.sub-div-learn-more {
+		height: 450px;
+	}
+	.learn_more_graphic {
+		left: 20px;
+	}
+	.learn_more_text {
+		font-size: 120%;
+		padding-top: 10px;
+	}
+	.center-element {
+		position: relative;
+	}
+	.analysis_text {
+		padding-top: 20px;
+	}
+	.analysis_graphic {
+		left: 0px;
+	}
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}

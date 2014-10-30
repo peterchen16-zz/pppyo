@@ -1,0 +1,83 @@
+<form id="startProjectForm" method="post" class="form-horizontal"
+    data-bv-message="This value is not valid"
+    data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
+    data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+    data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+    <div class="form-group row">
+        <label class="col-lg-3 control-label">Project Type</label>
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="project_type" value="cloud"
+                        data-bv-message="Please specify at least one project type"
+                        data-bv-notempty="true" /> Cloud
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="project_type" value="data" /> Data
+                </label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="project_type" value="app" /> App
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="project_type" value="analysis" /> Analysis
+                </label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="project_type" value="all" /> All
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-lg-3 control-label">Project Description</label>
+        <div class="col-lg-4">
+            <textarea type="text" class="form-control" name="project_description" placeholder="Please briefly describe your project. What problem it's trying to solve. What's its purpose, etc." style="width: 350px; height: 150px;"
+                data-bv-notempty="true"
+                data-bv-notempty-message="The project description is required and cannot be empty. Please give a brief description of your project. What problem it's trying to solve, What's its purpose, etc." ></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-lg-3 control-label">Project Scale</label>
+        <div class="col-lg-4">
+            <select type="text" class="form-control" name="project_scale" placeholder="First name"
+                data-bv-notempty="true"
+                data-bv-notempty-message="The project scale is required. From 1 to 5, please give an estimate of how big this project is.">
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-lg-3 control-label">Contact Name</label>
+        <div class="col-lg-4">
+            <input type="text" class="form-control" name="contact_name" placeholder="Contact Name"
+                data-bv-notempty="true"
+                data-bv-notempty-message="The first name is required and cannot be empty" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-lg-3 control-label">Contact Email</label>
+        <div class="col-lg-5">
+            <input class="form-control" name="email" type="email" placeholder="Contact Email"
+                data-bv-emailaddress="true"
+                data-bv-emailaddress-message="The input is not a valid email address" />
+        </div>
+    </div>
+
+</form>
