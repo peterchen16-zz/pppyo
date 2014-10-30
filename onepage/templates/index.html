@@ -26,6 +26,11 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- PNotify -->
+    <script type="text/javascript" src="/js/pnotify.custom.min.js"></script>
+    <link href="/css/pnotify.custom.min.css" media="all" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -192,6 +197,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" onclick="start_project()" id="start_button">START</button>
+            <button class="btn" data-dismiss="modal" aria-hidden="true" style="display: none;" id="close_modal_btn">Close</button>
           </div>
         </div>
       </div>
@@ -237,7 +243,6 @@
     </footer>
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
